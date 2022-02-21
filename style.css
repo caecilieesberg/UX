@@ -1,1 +1,57 @@
-body'
+*{ /* fjerne standar padding og margin */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #020202; ;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: #020202;
+    text-decoration: none;
+}
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+}
+.nav-link{
+    transition: 0.7s ease /* hover effekt */
+}
+.nav-link:hover{
+    color: #79BA00;
+}
+.hamburger{
+    display: block;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #020202;
+}
