@@ -91,7 +91,7 @@ a{
 }
 
 .nav-menu{
-    position: fixed;
+    position: absolute;
     left: -100%;
     top:70px;
     flex-direction: row;
@@ -124,22 +124,26 @@ a{
     margin-top: 50px;
     margin-left: 100px;
     font-size: 150%;
+    font-style: italic;
+    font-weight: lighter;
 
 }
 
 .introtekst{
     margin-top: 30px;
     margin-left: 100px;
+    line-height: 40px;
 }
 
 .tekst{
-    width: 50%;
+    width: 100%;
     padding-right: 30px;
 }
 
 .sofa{
-    width: 50%;
-    margin-bottom: 20px;
+    width: 600px;
+    margin-bottom: 50px;
+    margin-right: 50px;
 }
 
 
@@ -157,9 +161,10 @@ a{
         'venstre venstre venstre højre højre højre'
         'venstre venstre venstre højre højre højre';
 
-    grid-gap: 0px;
-    margin: 10px;
-    background-color: grey;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    background-color: #E5E5E5;
 }
 
 
