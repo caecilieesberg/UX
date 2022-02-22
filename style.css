@@ -42,7 +42,6 @@ a{
     color: #79BA00;
 }
 .hamburger{
-    display: block;
     cursor: pointer;
 }
 
@@ -54,4 +53,23 @@ a{
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #020202;
+}
+
+/* i videoen laver han @media her */
+
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+
+/* herunder er animation, der gør burgermenuen til et kryds når den klikkes på */
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu{
+    position: sticky;
+    left: -100%;
 }
