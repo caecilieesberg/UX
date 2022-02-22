@@ -138,13 +138,28 @@ a{
 }
 
 .sofa{
-    width: 35%;
+    width: 50%;
     margin-bottom: 20px;
 }
 
-.flexcontainer{
-    display: flex;
-    background-color:grey ;
+
+/*Her er stylingen af mit grid og opsætningen af det*/
+.item-titel { grid-area: menu; }
+.item-undertitel { grid-area: main; }
+.item-tekst { grid-area: venstre; }
+.item-sofa { grid-area:højre;}
+    
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'menu menu menu menu menu menu'
+        'main main main main main main'
+        'venstre venstre venstre højre højre højre'
+        'venstre venstre venstre højre højre højre';
+
+    grid-gap: 0px;
+    margin: 10px;
+    background-color: grey;
 }
 
 
