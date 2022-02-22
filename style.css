@@ -10,7 +10,12 @@ header{
     border-bottom: 1px solid #020202; ;
     box-shadow:  5px 5px 5px #020202; 
 }
-
+.biblo{
+    height: 10%;
+    width: 10%;
+    padding-bottom: 2rem;
+    margin: 5px;
+}
 li{
     list-style: none;
 }
@@ -57,7 +62,7 @@ a{
     transition: all 0.3s ease-in-out;
     background-color: #020202;
 }
-/* hover effekt på anchor */
+/* hover effekt på anchor - https://www.youtube.com/watch?v=J4Et-MdY-qs */ 
 .navbar a::after{
     margin-top: 3rem;
     content: "";
@@ -97,6 +102,7 @@ a{
     box-shadow:  5px 5px 5px #020202; 
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: 1.7rem;
 }
 
 .nav-item{

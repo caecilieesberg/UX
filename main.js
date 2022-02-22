@@ -11,3 +11,4 @@ document.querySelectorAll("nav.link").forEach(n => n.
         hamburger.classList.remove("active");
         navMenu.classList.remove("active")
     }))
+/* brugt til at lave burgermeun https://www.youtube.com/watch?v=flItyHiDm7E */ 
